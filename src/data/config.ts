@@ -27,10 +27,6 @@ const config = {
   email: "yugalalmora@gmail.com",
   site: "https://yugallohani.site",
 
-  // for github stars button
-  githubUsername: "yugallohaniwww",
-  githubRepo: "3d-portfolio",
-
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
