@@ -335,53 +335,5 @@ const projects: Project[] = [
       );
     },
   },
-  {
-    id: "portfolio",
-    category: "Portfolio",
-    title: "My 3D Portfolio",
-    src: "/assets/projects-screenshots/portfolio/landing.png",
-    screenshots: ["landing.png"],
-    live: "https://yugallohani.vercel.app",
-    github: "https://github.com/yugallohaniwww/3d-portfolio",
-    skills: {
-      frontend: [
-        PROJECT_SKILLS.ts,
-        PROJECT_SKILLS.next,
-        PROJECT_SKILLS.shadcn,
-        PROJECT_SKILLS.aceternity,
-        PROJECT_SKILLS.framerMotion,
-        PROJECT_SKILLS.tailwind,
-        PROJECT_SKILLS.spline,
-      ],
-      backend: [],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            Welcome to my digital showcase, where innovation meets elegant design in a stunning 3D environment.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <TypographyH3 className="my-4 mt-8">
-            Interactive 3D Elements
-          </TypographyH3>
-          <p className="font-mono mb-2">
-            Featuring immersive 3D models and animations that showcase technical skills in an engaging, 
-            interactive format. Built with Spline and Three.js for smooth performance.
-          </p>
-          <TypographyH3 className="my-4 ">Modern Tech Stack</TypographyH3>
-          <p className="font-mono mb-2">
-            Powered by Next.js 14, TypeScript, and modern animation libraries including GSAP and Framer Motion 
-            for buttery-smooth interactions and professional presentation.
-          </p>
-          <TypographyH3 className="my-4 mt-8">Professional Showcase</TypographyH3>
-          <p className="font-mono mb-2">
-            A comprehensive display of projects, skills, and experience designed to impress recruiters, 
-            startup founders, and potential clients in the tech industry.
-          </p>
-        </div>
-      );
-    },
-  },
 ];
 export default projects;
